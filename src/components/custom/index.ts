@@ -1,3 +1,3 @@
-import GithubSite from './GithubSite.vue'
+import HeiGPTSite from './HeiGPTSite.vue'
 
-export { GithubSite }
+export { HeiGPTSite }
