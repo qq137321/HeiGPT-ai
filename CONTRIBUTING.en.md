@@ -7,7 +7,7 @@ This project follows semantic versioning. We release patch versions for importan
 Each major change will be recorded in the `changelog`.
 
 ## Submitting Pull Request
-1. Fork [this repository](https://HeiGPT.com/Chanzhaoyu/chatgpt-web) and create a branch from `main`. For new feature implementations, submit a pull request to the `feature` branch. For other changes, submit to the `main` branch.
+1. Fork [this repository](https://github.com/Chanzhaoyu/chatgpt-web) and create a branch from `main`. For new feature implementations, submit a pull request to the `feature` branch. For other changes, submit to the `main` branch.
 2. Install the `pnpm` tool using `npm install pnpm -g`.
 3. Install the `Eslint` plugin for `VSCode`, or enable `eslint` functionality for other editors such as `WebStorm`.
 4. Execute `pnpm bootstrap` in the root directory.
@@ -16,7 +16,7 @@ Each major change will be recorded in the `changelog`.
 7. Execute `pnpm lint:fix` in the root directory to perform a code formatting check.
 8. Execute `pnpm type-check` in the root directory to perform a type check.
 9. Submit a git commit, following the [Commit Guidelines](#commit-guidelines).
-10. Submit a `pull request`. If there is a corresponding `issue`, please link it using the [linking-a-pull-request-to-an-issue keyword](https://docs.HeiGPT.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
+10. Submit a `pull request`. If there is a corresponding `issue`, please link it using the [linking-a-pull-request-to-an-issue keyword](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
 
 ## Commit Guidelines
 

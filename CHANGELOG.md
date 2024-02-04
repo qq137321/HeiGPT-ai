@@ -15,54 +15,54 @@
 
 `2023-04-26`
 
-> [chatgpt-web-plus](https://HeiGPT.com/Chanzhaoyu/chatgpt-web-plus) 新界面、完整用户管理
+> [chatgpt-web-plus](https://github.com/Chanzhaoyu/chatgpt-web-plus) 新界面、完整用户管理
 
 ## Enhancement
-- 更新默认 `accessToken` 反代地址为 [[pengzhile](https://HeiGPT.com/pengzhile)] 的 `https://ai.fakeopen.com/api/conversation` [[24min](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1567/files)]
-- 添加自定义 `temperature` 和 `top_p` [[quzard](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1260)]
-- 优化代码 [[shunyue1320](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1328)]
+- 更新默认 `accessToken` 反代地址为 [[pengzhile](https://github.com/pengzhile)] 的 `https://ai.fakeopen.com/api/conversation` [[24min](https://github.com/Chanzhaoyu/chatgpt-web/pull/1567/files)]
+- 添加自定义 `temperature` 和 `top_p` [[quzard](https://github.com/Chanzhaoyu/chatgpt-web/pull/1260)]
+- 优化代码 [[shunyue1320](https://github.com/Chanzhaoyu/chatgpt-web/pull/1328)]
 - 优化复制代码反馈效果
 
 ## BugFix
-- 修复余额查询和文案 [[luckywangxi](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1174)][[zuoning777](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1296)]
-- 修复默认语言错误 [[idawnwon](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1352)]
-- 修复 `onRegenerate` 下问题 [[leafsummer](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1188)]
+- 修复余额查询和文案 [[luckywangxi](https://github.com/Chanzhaoyu/chatgpt-web/pull/1174)][[zuoning777](https://github.com/Chanzhaoyu/chatgpt-web/pull/1296)]
+- 修复默认语言错误 [[idawnwon](https://github.com/Chanzhaoyu/chatgpt-web/pull/1352)]
+- 修复 `onRegenerate` 下问题 [[leafsummer](https://github.com/Chanzhaoyu/chatgpt-web/pull/1188)]
 
 ## Other
-- 引导用户触发提示词 [[RyanXinOne](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1183)]
-- 添加韩语翻译 [[Kamilake](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1372)]
-- 添加俄语翻译 [[aquaratixc](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1571)]
-- 优化翻译和文本检查 [[PeterDaveHello](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1460)]
+- 引导用户触发提示词 [[RyanXinOne](https://github.com/Chanzhaoyu/chatgpt-web/pull/1183)]
+- 添加韩语翻译 [[Kamilake](https://github.com/Chanzhaoyu/chatgpt-web/pull/1372)]
+- 添加俄语翻译 [[aquaratixc](https://github.com/Chanzhaoyu/chatgpt-web/pull/1571)]
+- 优化翻译和文本检查 [[PeterDaveHello](https://github.com/Chanzhaoyu/chatgpt-web/pull/1460)]
 - 移除无用文件
 
 ## v2.10.9
 
 `2023-04-03`
 
-> 更新默认 `accessToken` 反代地址为 [[pengzhile](https://HeiGPT.com/pengzhile)] 的 `https://ai.fakeopen.com/api/conversation`
+> 更新默认 `accessToken` 反代地址为 [[pengzhile](https://github.com/pengzhile)] 的 `https://ai.fakeopen.com/api/conversation`
 
 ## Enhancement
-- 添加 `socks5` 代理认证 [[yimiaoxiehou](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/999)]
-- 添加 `socks` 代理用户名密码的配置 [[hank-cp](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/890)]
-- 添加可选日志打印 [[zcong1993](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1041)]
-- 更新侧边栏按钮本地化[[simonwu53](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/911)]
-- 优化代码块滚动条高度 [[Fog3211](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1153)]
+- 添加 `socks5` 代理认证 [[yimiaoxiehou](https://github.com/Chanzhaoyu/chatgpt-web/pull/999)]
+- 添加 `socks` 代理用户名密码的配置 [[hank-cp](https://github.com/Chanzhaoyu/chatgpt-web/pull/890)]
+- 添加可选日志打印 [[zcong1993](https://github.com/Chanzhaoyu/chatgpt-web/pull/1041)]
+- 更新侧边栏按钮本地化[[simonwu53](https://github.com/Chanzhaoyu/chatgpt-web/pull/911)]
+- 优化代码块滚动条高度 [[Fog3211](https://github.com/Chanzhaoyu/chatgpt-web/pull/1153)]
 ## BugFix
-- 修复 `PWA` 问题 [[bingo235](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/807)]
-- 修复 `ESM` 错误 [[kidonng](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/826)]
-- 修复反向代理开启时限流失效的问题 [[gitgitgogogo](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/863)]
-- 修复 `docker` 构建时 `.env` 可能被忽略的问题 [[zaiMoe](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/877)]
-- 修复导出异常错误 [[KingTwinkle](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/938)]
-- 修复空值异常 [[vchenpeng](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1103)]
+- 修复 `PWA` 问题 [[bingo235](https://github.com/Chanzhaoyu/chatgpt-web/pull/807)]
+- 修复 `ESM` 错误 [[kidonng](https://github.com/Chanzhaoyu/chatgpt-web/pull/826)]
+- 修复反向代理开启时限流失效的问题 [[gitgitgogogo](https://github.com/Chanzhaoyu/chatgpt-web/pull/863)]
+- 修复 `docker` 构建时 `.env` 可能被忽略的问题 [[zaiMoe](https://github.com/Chanzhaoyu/chatgpt-web/pull/877)]
+- 修复导出异常错误 [[KingTwinkle](https://github.com/Chanzhaoyu/chatgpt-web/pull/938)]
+- 修复空值异常 [[vchenpeng](https://github.com/Chanzhaoyu/chatgpt-web/pull/1103)]
 - 移动端上的体验问题
 
 ## Other
-- `Docker` 容器名字名义 [[LOVECHEN](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1035)]
-- `kubernetes` 部署配置 [[CaoYunzhou](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1001)]
-- 感谢 [[assassinliujie](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/962)] 和 [[puppywang](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1017)] 的某些贡献
-- 更新 `kubernetes/deploy.yaml` [[idawnwon](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/1085)]
-- 文档更新 [[#yi-ge](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/883)]
-- 文档更新 [[weifeng12x](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/880)]
+- `Docker` 容器名字名义 [[LOVECHEN](https://github.com/Chanzhaoyu/chatgpt-web/pull/1035)]
+- `kubernetes` 部署配置 [[CaoYunzhou](https://github.com/Chanzhaoyu/chatgpt-web/pull/1001)]
+- 感谢 [[assassinliujie](https://github.com/Chanzhaoyu/chatgpt-web/pull/962)] 和 [[puppywang](https://github.com/Chanzhaoyu/chatgpt-web/pull/1017)] 的某些贡献
+- 更新 `kubernetes/deploy.yaml` [[idawnwon](https://github.com/Chanzhaoyu/chatgpt-web/pull/1085)]
+- 文档更新 [[#yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/883)]
+- 文档更新 [[weifeng12x](https://github.com/Chanzhaoyu/chatgpt-web/pull/880)]
 - 依赖更新
 
 ## v2.10.8
@@ -72,17 +72,17 @@
 如遇问题，请删除 `node_modules` 重新安装依赖。
 
 ## Feature
-- 显示回复消息原文的选项 [[yilozt](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/672)]
-- 添加单 `IP` 每小时请求限制。环境变量： `MAX_REQUEST_PER_HOUR` [[zhuxindong ](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/718)]
-- 前端添加角色设定，仅 `API` 方式可见 [[quzard](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/768)]
-- `OPENAI_API_MODEL` 变量现在对 `ChatGPTUnofficialProxyAPI` 也生效，注意：`Token` 和 `API` 的模型命名不一致，不能直接填入 `gpt-3.5` 或者 `gpt-4` [[hncboy](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/632)]
-- 添加繁体中文 `Prompts` [[PeterDaveHello](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/796)]
+- 显示回复消息原文的选项 [[yilozt](https://github.com/Chanzhaoyu/chatgpt-web/pull/672)]
+- 添加单 `IP` 每小时请求限制。环境变量： `MAX_REQUEST_PER_HOUR` [[zhuxindong ](https://github.com/Chanzhaoyu/chatgpt-web/pull/718)]
+- 前端添加角色设定，仅 `API` 方式可见 [[quzard](https://github.com/Chanzhaoyu/chatgpt-web/pull/768)]
+- `OPENAI_API_MODEL` 变量现在对 `ChatGPTUnofficialProxyAPI` 也生效，注意：`Token` 和 `API` 的模型命名不一致，不能直接填入 `gpt-3.5` 或者 `gpt-4` [[hncboy](https://github.com/Chanzhaoyu/chatgpt-web/pull/632)]
+- 添加繁体中文 `Prompts` [[PeterDaveHello](https://github.com/Chanzhaoyu/chatgpt-web/pull/796)]
 
 ## Enhancement
-- 重置回答时滚动定位至该回答 [[shunyue1320](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/781)]
-- 当 `API` 是 `gpt-4` 时增加可用的 `Max Tokens` [[simonwu53](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/729)]
-- 判断和忽略回复字符 [[liut](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/474)]
-- 切换会话时，自动聚焦输入框 [[JS-an](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/735)]
+- 重置回答时滚动定位至该回答 [[shunyue1320](https://github.com/Chanzhaoyu/chatgpt-web/pull/781)]
+- 当 `API` 是 `gpt-4` 时增加可用的 `Max Tokens` [[simonwu53](https://github.com/Chanzhaoyu/chatgpt-web/pull/729)]
+- 判断和忽略回复字符 [[liut](https://github.com/Chanzhaoyu/chatgpt-web/pull/474)]
+- 切换会话时，自动聚焦输入框 [[JS-an](https://github.com/Chanzhaoyu/chatgpt-web/pull/735)]
 - 渲染的链接新窗口打开
 - 查询余额可选 `API_BASE_URL` 代理地址
 - `config` 接口添加验证防止被无限制调用
@@ -90,13 +90,13 @@
 - 当网络连接时，刷新页面，`500` 错误页自动跳转到主页
 
 ## BugFix
-- `scrollToBottom` 调回 `scrollToBottomIfAtBottom` [[shunyue1320](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/771)]
+- `scrollToBottom` 调回 `scrollToBottomIfAtBottom` [[shunyue1320](https://github.com/Chanzhaoyu/chatgpt-web/pull/771)]
 - 重置异常的 `loading` 会话
 
 ## Common
-- 创建 `start.cmd` 在 `windows` 下也可以运行 [vulgatecnn](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/656)]
-- 添加 `visual-studio-code` 中调试配置 [[ChandlerVer5](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/296)]
-- 修复文档中 `docker` 端口为本地 [[kilvn](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/802)]
+- 创建 `start.cmd` 在 `windows` 下也可以运行 [vulgatecnn](https://github.com/Chanzhaoyu/chatgpt-web/pull/656)]
+- 添加 `visual-studio-code` 中调试配置 [[ChandlerVer5](https://github.com/Chanzhaoyu/chatgpt-web/pull/296)]
+- 修复文档中 `docker` 端口为本地 [[kilvn](https://github.com/Chanzhaoyu/chatgpt-web/pull/802)]
 ## Other
 - 依赖更新
 
@@ -114,18 +114,18 @@
 `2023-03-17`
 
 ## Feature
-- 显示 `API` 余额 [[pzcn](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/582)]
+- 显示 `API` 余额 [[pzcn](https://github.com/Chanzhaoyu/chatgpt-web/pull/582)]
 
 ## Enhancement
-- 美化滚动条样式和 `UI` 保持一致 [[haydenull](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/617)]
-- 优化移动端 `Prompt` 样式 [[CornerSkyless](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/608)]
+- 美化滚动条样式和 `UI` 保持一致 [[haydenull](https://github.com/Chanzhaoyu/chatgpt-web/pull/617)]
+- 优化移动端 `Prompt` 样式 [[CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/608)]
 - 上下文开关改为全局开关，现在记录在本地缓存中
 - 配置信息按接口类型显示
 
 ## Perf
-- 优化函数方法 [[kirklin](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/583)]
-- 字符错误 [[pdsuwwz](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/585)]
-- 文档描述错误 [[lizhongyuan3](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/636)]
+- 优化函数方法 [[kirklin](https://github.com/Chanzhaoyu/chatgpt-web/pull/583)]
+- 字符错误 [[pdsuwwz](https://github.com/Chanzhaoyu/chatgpt-web/pull/585)]
+- 文档描述错误 [[lizhongyuan3](https://github.com/Chanzhaoyu/chatgpt-web/pull/636)]
 
 ## BugFix
 - 修复 `Prompt` 导入、导出兼容性错误
@@ -138,24 +138,24 @@
 
 `2023-03-13`
 
-更新依赖，`access_token` 默认代理为 [pengzhile](https://HeiGPT.com/pengzhile) 的 `https://bypass.duti.tech/api/conversation`
+更新依赖，`access_token` 默认代理为 [pengzhile](https://github.com/pengzhile) 的 `https://bypass.duti.tech/api/conversation`
 
 ## Feature
-- `Prompt` 商店在线导入可以导入两种 `recommend.json`里提到的模板 [simonwu53](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/521)
-- 支持 `HTTPS_PROXY` [whatwewant](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/308)
+- `Prompt` 商店在线导入可以导入两种 `recommend.json`里提到的模板 [simonwu53](https://github.com/Chanzhaoyu/chatgpt-web/pull/521)
+- 支持 `HTTPS_PROXY` [whatwewant](https://github.com/Chanzhaoyu/chatgpt-web/pull/308)
 - `Prompt` 添加查询筛选
 
 ## Enhancement
-- 调整输入框最大行数 [yi-ge](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/502)
-- 优化 `docker` 打包 [whatwewant](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/520)
+- 调整输入框最大行数 [yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/502)
+- 优化 `docker` 打包 [whatwewant](https://github.com/Chanzhaoyu/chatgpt-web/pull/520)
 - `Prompt` 添加翻译和优化布局
-- 「繁体中文」补全和审阅 [PeterDaveHello](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/542)
+- 「繁体中文」补全和审阅 [PeterDaveHello](https://github.com/Chanzhaoyu/chatgpt-web/pull/542)
 - 语言选择调整为下路框形式
 - 权限输入框类型调整为密码形式
 
 ## BugFix
-- `JSON` 导入检查 [Nothing1024](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/523)
-- 修复 `AUTH_SECRET_KEY` 模式下跨域异常并添加对 `node.js 19` 版本的支持 [yi-ge](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/499)
+- `JSON` 导入检查 [Nothing1024](https://github.com/Chanzhaoyu/chatgpt-web/pull/523)
+- 修复 `AUTH_SECRET_KEY` 模式下跨域异常并添加对 `node.js 19` 版本的支持 [yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/499)
 - 确定清空上下文时不应该重置会话标题
 
 ## Other
@@ -167,32 +167,32 @@
 `2023-03-11`
 
 ## Feature
-- 感谢 [Nothing1024](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/268) 添加 `Prompt` 模板和 `Prompt` 商店支持
+- 感谢 [Nothing1024](https://github.com/Chanzhaoyu/chatgpt-web/pull/268) 添加 `Prompt` 模板和 `Prompt` 商店支持
 
 ## Enhancement
 - 设置添加关闭按钮[#495]
 
 ## Demo
 
-![Prompt](https://camo.HeiGPTusercontent.com/6a51af751eb29238cb7ef4f8fbd89f63db837562f97f33273095424e62dc9194/68747470733a2f2f73312e6c6f63696d672e636f6d2f323032332f30332f30342f333036326665633163613562632e676966)
+![Prompt](https://camo.githubusercontent.com/6a51af751eb29238cb7ef4f8fbd89f63db837562f97f33273095424e62dc9194/68747470733a2f2f73312e6c6f63696d672e636f6d2f323032332f30332f30342f333036326665633163613562632e676966)
 
 ## v2.10.3
 
 `2023-03-10`
 
-> 声明：除 `ChatGPTUnofficialProxyAPI` 使用的非官方代理外，本项目代码包括上游引用包均开源在 `HeiGPT`，如果你觉得本项目有监控后门或有问题导致你的账号、API被封，那我很抱歉。我可能`BUG`写的多，但我不缺德。此次主要为前端界面调整，周末愉快。
+> 声明：除 `ChatGPTUnofficialProxyAPI` 使用的非官方代理外，本项目代码包括上游引用包均开源在 `github`，如果你觉得本项目有监控后门或有问题导致你的账号、API被封，那我很抱歉。我可能`BUG`写的多，但我不缺德。此次主要为前端界面调整，周末愉快。
 
 ## Feature
-- 支持长回复 [[yi-ge](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/450)][[详情](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/450)]
-- 支持 `PWA` [[chenxch](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/452)]
+- 支持长回复 [[yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/450)][[详情](https://github.com/Chanzhaoyu/chatgpt-web/pull/450)]
+- 支持 `PWA` [[chenxch](https://github.com/Chanzhaoyu/chatgpt-web/pull/452)]
 
 ## Enhancement
 - 调整移动端按钮和优化布局
 - 调整 `iOS` 上安全距离
-- 简化 `docker-compose` 部署 [[cloudGrin](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/466)]
+- 简化 `docker-compose` 部署 [[cloudGrin](https://github.com/Chanzhaoyu/chatgpt-web/pull/466)]
 
 ## BugFix
-- 修复清空会话侧边栏标题不会重置的问题 [[RyanXinOne](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/453)]
+- 修复清空会话侧边栏标题不会重置的问题 [[RyanXinOne](https://github.com/Chanzhaoyu/chatgpt-web/pull/453)]
 - 修复设置文字过长时导致的设置按钮消失的问题
 
 ## Other
@@ -202,7 +202,7 @@
 
 `2023-03-09`
 
-衔接 `2.10.1` 版本[详情](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/releases/tag/v2.10.1)
+衔接 `2.10.1` 版本[详情](https://github.com/Chanzhaoyu/chatgpt-web/releases/tag/v2.10.1)
 
 ## Enhancement
 - 移动端下输入框获得焦点时左侧按钮隐藏
@@ -219,21 +219,21 @@
 
 - 在项目中添加 `.env` 从一开始就是个错误的示范
 - 如果是 `Fork` 项目进行修改测试总是会被 `Git` 修改提示给打扰
-- 感谢 [yi-ge](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/395) 的提醒和修改
+- 感谢 [yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/395) 的提醒和修改
 
 
 这两天开始，官方已经开始对第三方代理进行了拉闸， `accessToken` 即将或已经开始可能会不可使用。异常 `API` 使用也开始封号，封号缘由不明，如果出现使用 `API` 提示错误，请查看后端控制台信息，或留意邮箱。
 
 ## Feature
-- 感谢 [CornerSkyless](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/393) 添加是否发送上下文开关功能
+- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/393) 添加是否发送上下文开关功能
 
 ## Enhancement
-- 感谢 [nagaame](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/415) 优化`docker`打包镜像文件过大的问题
-- 感谢 [xieccc](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/404) 新增 `API` 模型配置变量 `OPENAI_API_MODEL`
-- 感谢 [acongee](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/394) 优化输出时滚动条问题
+- 感谢 [nagaame](https://github.com/Chanzhaoyu/chatgpt-web/pull/415) 优化`docker`打包镜像文件过大的问题
+- 感谢 [xieccc](https://github.com/Chanzhaoyu/chatgpt-web/pull/404) 新增 `API` 模型配置变量 `OPENAI_API_MODEL`
+- 感谢 [acongee](https://github.com/Chanzhaoyu/chatgpt-web/pull/394) 优化输出时滚动条问题
 
 ## BugFix
-- 感谢 [CornerSkyless](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/392) 修复导出图片会丢失头像的问题
+- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/392) 修复导出图片会丢失头像的问题
 - 修复深色模式导出图片的样式问题
 
 
@@ -247,13 +247,13 @@
 
 ## Feature
 - 添加权限功能，用法：`service/.env` 中的 `AUTH_SECRET_KEY` 变量添加密码
-- 感谢 [PeterDaveHello](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/348) 添加「繁体中文」翻译
-- 感谢 [GermMC](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/369) 添加聊天记录导入、导出、清空的功能
-- 感谢 [CornerSkyless](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/374) 添加会话保存为本地图片的功能
+- 感谢 [PeterDaveHello](https://github.com/Chanzhaoyu/chatgpt-web/pull/348) 添加「繁体中文」翻译
+- 感谢 [GermMC](https://github.com/Chanzhaoyu/chatgpt-web/pull/369) 添加聊天记录导入、导出、清空的功能
+- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/374) 添加会话保存为本地图片的功能
 
 
 ## Enhancement
-- 感谢 [CornerSkyless](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/363) 添加 `ctrl+enter`  发送消息
+- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/363) 添加 `ctrl+enter`  发送消息
 - 现在新消息只有在结束了之后才滚动到底部，而不是之前的强制性
 - 优化部分代码
 
@@ -268,27 +268,27 @@
 
 权限
 
-![权限](https://user-images.HeiGPTusercontent.com/24789441/223438518-80d58d42-e344-4e39-b87c-251ff73925ed.png)
+![权限](https://user-images.githubusercontent.com/24789441/223438518-80d58d42-e344-4e39-b87c-251ff73925ed.png)
 
 聊天记录导出
 
-![聊天记录导出](https://user-images.HeiGPTusercontent.com/57023771/223372153-6d8e9ec1-d82c-42af-b4bd-232e50504a25.gif)
+![聊天记录导出](https://user-images.githubusercontent.com/57023771/223372153-6d8e9ec1-d82c-42af-b4bd-232e50504a25.gif)
 
 保存图片到本地
 
-![保存图片到本地](https://user-images.HeiGPTusercontent.com/13901424/223423555-b69b95ef-8bcf-4951-a7c9-98aff2677e18.gif)
+![保存图片到本地](https://user-images.githubusercontent.com/13901424/223423555-b69b95ef-8bcf-4951-a7c9-98aff2677e18.gif)
 
 ## v2.9.3
 
 `2023-03-06`
 
 ## Enhancement
-- 感谢 [ChandlerVer5](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/305) 使用 `markdown-it` 替换 `marked`，解决代码块闪烁的问题
-- 感谢 [shansing](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/277) 改善文档
-- 感谢 [nalf3in](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/293) 添加英文翻译
+- 感谢 [ChandlerVer5](https://github.com/Chanzhaoyu/chatgpt-web/pull/305) 使用 `markdown-it` 替换 `marked`，解决代码块闪烁的问题
+- 感谢 [shansing](https://github.com/Chanzhaoyu/chatgpt-web/pull/277) 改善文档
+- 感谢 [nalf3in](https://github.com/Chanzhaoyu/chatgpt-web/pull/293) 添加英文翻译
 
 ## BugFix
-- 感谢[sepcnt ](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/279) 修复切换记录时编辑状态未关闭的问题
+- 感谢[sepcnt ](https://github.com/Chanzhaoyu/chatgpt-web/pull/279) 修复切换记录时编辑状态未关闭的问题
 - 修复复制代码的兼容性报错问题
 - 修复部分优化小问题
 
@@ -299,8 +299,8 @@
 手动部署的同学，务必删除根目录和`service`中的`node_modules`重新安装依赖，降低出现问题的概率，自动部署的不需要做改动。
 
 ### Feature
-- 感谢 [hyln9](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/247) 添加对渲染 `LaTex` 数学公式的支持
-- 感谢 [ottocsb](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/227) 添加支持 `webAPP` (苹果添加到主页书签访问)支持
+- 感谢 [hyln9](https://github.com/Chanzhaoyu/chatgpt-web/pull/247) 添加对渲染 `LaTex` 数学公式的支持
+- 感谢 [ottocsb](https://github.com/Chanzhaoyu/chatgpt-web/pull/227) 添加支持 `webAPP` (苹果添加到主页书签访问)支持
 - 添加 `OPENAI_API_BASE_URL` 可选环境变量[#249]
 ## Enhancement
 - 优化在高分屏上主题内容的最大宽度[#257]
@@ -322,10 +322,10 @@
 - 完善多语言，现在可以切换中英文显示
 
 ## Enhancement
-- 由[Zo3i](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/187) 完善 `docker-compose` 部署文档
+- 由[Zo3i](https://github.com/Chanzhaoyu/chatgpt-web/pull/187) 完善 `docker-compose` 部署文档
 
 ### BugFix
-- 由 [ottocsb](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/200) 修复头像修改不同步的问题
+- 由 [ottocsb](https://github.com/Chanzhaoyu/chatgpt-web/pull/200) 修复头像修改不同步的问题
 ## Other
 - 更新依赖至最新
 - 修改 `README` 内容
@@ -372,7 +372,7 @@
 
 `2023-02-27`
 
-- 感谢 [puppywang](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/commit/628187f5c3348bda0d0518f90699a86525d19018) 修复了 `2.7.0` 版本中关于流输出数据的问题（使用 `nginx` 需要自行配置 `octet-stream` 相关内容）
+- 感谢 [puppywang](https://github.com/Chanzhaoyu/chatgpt-web/commit/628187f5c3348bda0d0518f90699a86525d19018) 修复了 `2.7.0` 版本中关于流输出数据的问题（使用 `nginx` 需要自行配置 `octet-stream` 相关内容）
 
 - 关于为什么使用 `octet-stream` 而不是 `sse`，是因为更好的兼容之前的模式。
 
@@ -395,15 +395,15 @@
 `2023-02-25`
 
 ### Feature
-- 适配系统深色模式 [#118](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/issues/103)
+- 适配系统深色模式 [#118](https://github.com/Chanzhaoyu/chatgpt-web/issues/103)
 ### BugFix
-- 修复用户消息能被渲染为 `HTML` 问题 [#117](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/issues/117)
+- 修复用户消息能被渲染为 `HTML` 问题 [#117](https://github.com/Chanzhaoyu/chatgpt-web/issues/117)
 
 ## v2.7.2
 
 `2023-02-24`
 ### Enhancement
-- 消息使用 [HeiGPT-markdown-css](https://www.npmjs.com/package/HeiGPT-markdown-css) 进行美化，现在支持全语法
+- 消息使用 [github-markdown-css](https://www.npmjs.com/package/github-markdown-css) 进行美化，现在支持全语法
 - 移除测试无用函数
 
 ## v2.7.1
@@ -450,17 +450,17 @@
 
 `2023-02-21`
 ### Feature
-- 新增对 `网页 accessToken` 调用 `ChatGPT`，更智能不过不太稳定 [#51](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/issues/51)
+- 新增对 `网页 accessToken` 调用 `ChatGPT`，更智能不过不太稳定 [#51](https://github.com/Chanzhaoyu/chatgpt-web/issues/51)
 - 前端页面设置按钮显示查看当前后端服务配置
 
 ### Enhancement
-- 新增 `TIMEOUT_MS` 环境变量设定后端超时时常（单位：毫秒）[#62](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/issues/62)
+- 新增 `TIMEOUT_MS` 环境变量设定后端超时时常（单位：毫秒）[#62](https://github.com/Chanzhaoyu/chatgpt-web/issues/62)
 
 ## v2.5.2
 
 `2023-02-21`
 ### Feature
-- 增加对 `markdown` 格式的支持 [Demo](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/pull/77)
+- 增加对 `markdown` 格式的支持 [Demo](https://github.com/Chanzhaoyu/chatgpt-web/pull/77)
 ### BugFix
 - 重载会话时滚动条保持
 
@@ -516,10 +516,10 @@
 ### Feature
 - 添加 `README` 部份说明和贡献列表
 - 添加 `docker` 镜像
-- 添加 `HeiGPT Action` 自动化构建
+- 添加 `github Action` 自动化构建
 
 ### BugFix
-- 回退依赖更新导致的 [Eslint 报错](https://HeiGPT.com/eslint/eslint/issues/16896)
+- 回退依赖更新导致的 [Eslint 报错](https://github.com/eslint/eslint/issues/16896)
 
 ## v2.3.2
 
@@ -612,4 +612,4 @@
 
 ### BugFix
 - 修复新增信息容器不会自动滚动到问题
-- 修复文本过长不换行到问题 [#1](https://HeiGPT.com/Chanzhaoyu/chatgpt-web/issues/1)
+- 修复文本过长不换行到问题 [#1](https://github.com/Chanzhaoyu/chatgpt-web/issues/1)

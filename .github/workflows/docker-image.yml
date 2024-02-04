@@ -14,7 +14,7 @@ jobs:
         name: Check out the repo
         uses: actions/checkout@v3
       - run: |
-          echo 本次构建的版本为：${{ HeiGPT.ref_name }}
+          echo 本次构建的版本为：${{ github.ref_name }}
           echo 账号：${{ secrets.DOCKER_USERNAME }}
           env
       -
