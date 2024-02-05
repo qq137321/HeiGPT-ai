@@ -167,7 +167,8 @@ export default {
 
         "findVersion": "Güncellenmiş sürümü keşfet",
         "yesLastVersion": "Zaten en son sürümde",
-				"infoStar: 'Bu proje, MIT lisansına dayanan ve herhangi bir ödeme şekli olmayan <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a> temelinde oluşturulmuştur!</p><p>Eğer bu proje size yardımcı oluyorsa, lütfen genişlemesini ve kullanımını aktif olarak destekleyin. Teşekkür ederiz!'"        "setBtSaveChat": "Sadece sohbeti kaydet",
+				"infoStar": 'Bu proje, MIT lisansına dayanan ve herhangi bir ödeme şekli olmayan <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a> temelinde oluşturulmuştur!</p><p>Eğer bu proje size yardımcı oluyorsa, lütfen genişlemesini ve kullanımını aktif olarak destekleyin. Teşekkür ederiz!',
+			  "setBtSaveChat": "Sadece sohbeti kaydet",
         "setBtSaveSys": "Sisteme kaydet",
         "wsrvClose": "wsrv'yi kapat",
         "wsrvOpen": "wsrv'yi aç",

@@ -164,7 +164,8 @@ export default {
     "mSent": "Gửi",
     "findVersion": "Phát hiện phiên bản cập nhật",
     "yesLastVersion": "Đã là phiên bản mới nhất",
-		"infoStar: 'Dự án này bắt nguồn từ <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>, dựa trên giấy phép MIT, không có hình thức thanh toán nào liên quan!</p><p>Nếu bạn thấy dự án này hữu ích, hãy ủng hộ mở rộng và sử dụng nó một cách tích cực. Cảm ơn bạn!'"    "setBtSaveChat": "Chỉ lưu trò chuyện",
+		"infoStar": 'Dự án này bắt nguồn từ <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>, dựa trên giấy phép MIT, không có hình thức thanh toán nào liên quan!</p><p>Nếu bạn thấy dự án này hữu ích, hãy ủng hộ mở rộng và sử dụng nó một cách tích cực. Cảm ơn bạn!',
+    "setBtSaveChat": "Chỉ lưu trò chuyện",
     "setBtSaveSys": "Lưu vào hệ thống",
 
     "wsrvClose": "Đóng wsrv",

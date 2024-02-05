@@ -167,7 +167,8 @@ export default {
 
         "findVersion": "Découvrir la version mise à jour",
         "yesLastVersion": "Déjà sur la dernière version",
-				"infoStar: 'Ce projet est issu de <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>, basé sur la licence MIT, sans aucune forme de paiement ! </p><p>Si vous trouvez ce projet utile, veuillez soutenir activement son expansion et son utilisation. Merci !'"        "setBtSaveChat": "Enregistrer le chat seulement",
+				"infoStar": 'Ce projet est issu de <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>, basé sur la licence MIT, sans aucune forme de paiement ! </p><p>Si vous trouvez ce projet utile, veuillez soutenir activement son expansion et son utilisation. Merci !',
+				        "setBtSaveChat": "Enregistrer le chat seulement",
         "setBtSaveSys": "Enregistrer dans le système",
         "wsrvClose": "Fermer wsrv",
         "wsrvOpen": "Ouvrir wsrv",
