@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/Dooy/chatgpt-web-midjourney-proxy/main/src/assets/avatar.jpg',
+      avatar: '../../assets/avatar.jpg',
       name:  t('mjset.sysname'),//'AI绘图',
       description: 'CopyRight© <a href="https://HeiGPT.com/" class="text-blue-500" target="_blank" >HeiGPT</a>',
     },
