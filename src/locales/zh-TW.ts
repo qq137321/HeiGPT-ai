@@ -121,7 +121,7 @@ export default {
     "pan_down": "向下",
     "up2": "高清2倍",
     "up4": "高清4倍",
-    
+
     "thinking": "思考中...",
     "noReUpload": "不能重複上傳",
     "uploading": "上傳中...",
@@ -166,8 +166,7 @@ export default {
     "mSent": "發送",
     "findVersion": "發現更新版本",
     "yesLastVersion": "已是最新版本",
-    "infoStar": "此專案在 <a class=\"text-blue-600 dark:text-blue-500\" href=\"https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target=\"_blank\">github</a> 上以 MIT 協議開源，免費且沒有任何付費行為！ </p><p>如果你覺得這個專案對你有幫助，請在 github 上給它一顆星，謝謝！",
-    "setBtSaveChat": "僅保存對話",
+		"infoStar: '此專案源自於 <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>，基於 MIT 授權，且無任何形式的付費行為！</p><p>如果您認為此專案對您有幫助，請積極支持擴展使用，謝謝！'"    "setBtSaveChat": "僅保存對話",
     "setBtSaveSys": "保存至系統",
     "wsrvClose": "關閉 wsrv",
     "wsrvOpen": "開啟 wsrv",

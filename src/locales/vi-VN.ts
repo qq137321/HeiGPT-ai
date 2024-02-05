@@ -164,13 +164,12 @@ export default {
     "mSent": "Gửi",
     "findVersion": "Phát hiện phiên bản cập nhật",
     "yesLastVersion": "Đã là phiên bản mới nhất",
-    "infoStar": "Dự án này được mở nguồn tại <a class=\"text-blue-600 dark:text-blue-500\" href=\"https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target=\"_blank\">github</a>, miễn phí và dựa trên giấy phép MIT mà không có bất kỳ hình thức thanh toán nào! </p><p>Nếu bạn thấy dự án này hữu ích, hãy cho nó một sao trên github, cảm ơn bạn!",
-    "setBtSaveChat": "Chỉ lưu trò chuyện",
+		"infoStar: 'Dự án này bắt nguồn từ <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>, dựa trên giấy phép MIT, không có hình thức thanh toán nào liên quan!</p><p>Nếu bạn thấy dự án này hữu ích, hãy ủng hộ mở rộng và sử dụng nó một cách tích cực. Cảm ơn bạn!'"    "setBtSaveChat": "Chỉ lưu trò chuyện",
     "setBtSaveSys": "Lưu vào hệ thống",
 
     "wsrvClose": "Đóng wsrv",
     "wsrvOpen": "Mở wsrv",
-    
+
     "temperature": "Ngẫu nhiên",
     "temperatureInfo": "Khi giá trị (temperature) tăng, các phản hồi trở nên ngẫu nhiên hơn",
     "top_p": "Lấy Mẫu Xác Suất Cao Nhất",

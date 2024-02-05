@@ -51,7 +51,7 @@ export default {
         clearHistoryConfirm: 'Bu sohbet geçmişini silmek istediğinizden emin misiniz?',
         preview: 'Önizleme',
         showRawText: 'Ham metin olarak göster',
-    },    
+    },
     setting: {
         setting: 'Ayarlar',
         general: 'Genel',
@@ -74,7 +74,7 @@ export default {
         httpsProxy: 'HTTPS Proxy',
         balance: 'API Bakiyesi',
         monthlyUsage: 'Aylık Kullanım',
-    },       
+    },
     store: {
         siderButton: 'Prompt Mağazası',
         local: 'Yerel',
@@ -92,7 +92,7 @@ export default {
         importRepeatContent: 'İçerik tekrarlı olarak atlandı: {msg}',
         onlineImportWarning: 'Not: Lütfen JSON dosyası kaynağını kontrol edin!',
         downloadError: 'Lütfen ağ durumunu ve JSON dosyasının geçerliliğini kontrol edin',
-    },      
+    },
     "mj": {
         "setOpen": "OpenAI İlişkilendirilmiş",
         "setOpenPlaceholder": "http(s):// içermelidir",
@@ -105,7 +105,7 @@ export default {
         "setUploaderUrl": "Yükleme Adresi:",
         "setBtSave": "Kaydet",
         "setBtBack": "Varsayılanı Geri Yükle",
-    
+
         "redraw": "Yeniden Çiz",
         "fail1": "Lütfen sabırlı olun, yükleniyor.",
         "success1": "Resim başarıyla yenilendi!",
@@ -121,7 +121,7 @@ export default {
         "pan_down": "Aşağı",
         "up2": "HD 2x",
         "up4": "HD 4x" ,
-    
+
         "thinking": "Düşünüyor...",
         "noReUpload": "Yeniden yüklenemiyor",
         "uploading": "Yükleniyor...",
@@ -133,20 +133,20 @@ export default {
         "czoom": "Özel",
         "customTitle": "Özel zoom",
         "zoominfo": "Zoom değerini değiştirin, 1.0 ile 2.0 arasında, varsayılan 1.8 olarak ayarlanmıştır",
-    
+
         "modleSuccess": "Model başarıyla yüklendi",
         "setingSuccess": "Ayarlar başarılı",
-    
+
         "tokenInfo1": "Kalan Jetonlar = Model Uzunluğu - Rol Ayarı - Bağlam (Sohbet Geçmişi) - Yanıt Sayısı - Mevcut Giriş",
         "tokenInfo2": "Rol ayarı boş bırakılırsa, sistem varsayılan bir tane sağlar.",
         "noSuppertModel": "Yenile, bu model şu anda desteklenmiyor!",
         "failOcr": "Tanıma başarısız",
         "remain": "Kalan:",
-    
+
         "totalUsage": "Toplam abonelik miktarı",
         "disableGpt4": "GPT4 devre dışı",
         "setTextInfo": "OpenAI API Anahtarı hatası, buraya tıklayarak yeniden deneyin",
-    
+
         "attr1": "Attr",
         "ulink": "Resim Bağlantısı",
         "copyFail": "Kopyalama Başarısız",
@@ -164,15 +164,14 @@ export default {
         "mPlay": "Oynat",
         "mCanel": "İptal",
         "mSent": "Gönder",
-    
+
         "findVersion": "Güncellenmiş sürümü keşfet",
         "yesLastVersion": "Zaten en son sürümde",
-        "infoStar": 'Bu proje <a class="text-blue-600 dark:text-blue-500" href="https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target="_blank">github</a> üzerinde açık kaynaklı, ücretsiz ve MIT lisansına dayanmaktadır, herhangi bir ödeme şekli yoktur! </p><p>Bu projeyi yararlı bulursanız, lütfen github üzerinde yıldız verin, teşekkür ederim!',
-        "setBtSaveChat": "Sadece sohbeti kaydet",
+				"infoStar: 'Bu proje, MIT lisansına dayanan ve herhangi bir ödeme şekli olmayan <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a> temelinde oluşturulmuştur!</p><p>Eğer bu proje size yardımcı oluyorsa, lütfen genişlemesini ve kullanımını aktif olarak destekleyin. Teşekkür ederiz!'"        "setBtSaveChat": "Sadece sohbeti kaydet",
         "setBtSaveSys": "Sisteme kaydet",
         "wsrvClose": "wsrv'yi kapat",
         "wsrvOpen": "wsrv'yi aç",
-        
+
         "temperature": "Rastlantısallık",
         "temperatureInfo": "(temperature) değeri arttıkça yanıtlar daha rastlantısal hale gelir",
         "top_p": "Üst Olasılık Örnekleme",
@@ -183,7 +182,7 @@ export default {
         "frequency_penaltyInfo": "(frequency_penalty) değeri arttıkça, tekrarlanan kelimelerin azaltılma olasılığı daha yüksektir"
         ,"tts_voice": "TTS Ses Karakteri",
         "typing": "Yazıyor"
-    },        
+    },
     "mjset": {
         "server": "Sunucu",
         "about": "Hakkında",
@@ -196,7 +195,7 @@ export default {
         "drawinfo": "Midjourney Motoru ile Yapay Zeka Çizimi",
         "gallery": "Galeri",
         "galleryInfo": "Benim Galerim"
-    },        
+    },
     "mjchat": {
         "loading": "Resim Yükleniyor",
         "openurl": "Bağlantıyı Doğrudan Aç",
@@ -272,6 +271,5 @@ export default {
         "no1m": "Resim boyutu 1M'yi aşamaz",
         "imgExt": "Resimler sadece jpg, gif, png, jpeg formatlarını destekler"
     }
-    
+
   }
-  

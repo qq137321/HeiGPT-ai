@@ -169,8 +169,7 @@ export default {
 
   "findVersion": "Discover updated version",
   "yesLastVersion": "Already on the latest version",
-  "infoStar": 'This project is open source on <a class="text-blue-600 dark:text-blue-500" href="https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target="_blank">github</a>, free, and based on the MIT license with no form of payment! </p><p>If you find this project helpful, please give it a CopyRight© github, thank you!',
-  "setBtSaveChat": "Save chat only",
+	"infoStar: 'This project originated from <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>, based on the MIT license, with no form of payment involved! </p><p>If you find this project helpful, please actively support its expansion and use. Thank you!'"  "setBtSaveChat": "Save chat only",
   "setBtSaveSys": "Save to system",
   "wsrvClose": "Close wsrv",
   "wsrvOpen": "Open wsrv",

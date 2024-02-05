@@ -74,7 +74,7 @@ export default {
         httpsProxy: 'Proxy HTTPS',
         balance: 'Solde de l\'API',
         monthlyUsage: 'Utilisation Mensuelle',
-    },    
+    },
     store: {
         siderButton: 'Prompt Boutique',
         local: 'Local',
@@ -92,7 +92,7 @@ export default {
         importRepeatContent: 'Contenu ignoré de manière répétée : {msg}',
         onlineImportWarning: 'Remarque : Veuillez vérifier la source du fichier JSON !',
         downloadError: 'Veuillez vérifier l\'état du réseau et la validité du fichier JSON',
-    },    
+    },
     "mj": {
         "setOpen": "Lié à OpenAI",
         "setOpenPlaceholder": "Doit inclure http(s)://",
@@ -105,7 +105,7 @@ export default {
         "setUploaderUrl": "Adresse de Téléchargement:",
         "setBtSave": "Enregistrer",
         "setBtBack": "Restaurer les Paramètres par Défaut",
-    
+
         "redraw": "Redessiner",
         "fail1": "S'il vous plaît soyez patient, ça charge.",
         "success1": "Image rafraîchie avec succès !",
@@ -120,8 +120,8 @@ export default {
         "pan_up": "Haut",
         "pan_down": "Bas",
         "up2": "HD 2x",
-        "up4": "HD 4x" , 
-    
+        "up4": "HD 4x" ,
+
         "thinking": "Réflexion...",
         "noReUpload": "Impossible de réimporter",
         "uploading": "Téléchargement...",
@@ -133,20 +133,20 @@ export default {
         "czoom": "Personnalisé",
         "customTitle": "Zoom personnalisé",
         "zoominfo": "Modifier la valeur du zoom, de 1.0 à 2.0, la valeur par défaut est réglée sur 1.8",
-    
+
         "modleSuccess": "Modèle chargé avec succès",
         "setingSuccess": "Paramètres réussis",
-    
+
         "tokenInfo1": "Jetons restants = Longueur du modèle - Réglage du rôle - Contexte (historique des conversations) - Nombre de réponses - Entrée actuelle",
         "tokenInfo2": "Laissez le réglage du rôle vide et le système fournira un réglage par défaut.",
         "noSuppertModel": "Actualiser, ce modèle n'est actuellement pas pris en charge !",
         "failOcr": "Échec de la reconnaissance",
         "remain": "Reste :",
-    
+
         "totalUsage": "Montant total de l'abonnement",
         "disableGpt4": "GPT4 désactivé",
         "setTextInfo": "Erreur de clé API OpenAI, cliquez ici pour réessayer",
-    
+
         "attr1": "Attribut",
         "ulink": "Lien de l'image",
         "copyFail": "Copie échouée",
@@ -164,11 +164,10 @@ export default {
         "mPlay": "Lire",
         "mCanel": "Annuler",
         "mSent": "Envoyer",
-    
+
         "findVersion": "Découvrir la version mise à jour",
         "yesLastVersion": "Déjà sur la dernière version",
-        "infoStar": 'Ce projet est open source sur <a class="text-blue-600 dark:text-blue-500" href="https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target="_blank">github</a>, gratuit et basé sur la licence MIT sans aucune forme de paiement ! </p><p>Si vous trouvez ce projet utile, veuillez lui donner une étoile sur github, merci !',
-        "setBtSaveChat": "Enregistrer le chat seulement",
+				"infoStar: 'Ce projet est issu de <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>, basé sur la licence MIT, sans aucune forme de paiement ! </p><p>Si vous trouvez ce projet utile, veuillez soutenir activement son expansion et son utilisation. Merci !'"        "setBtSaveChat": "Enregistrer le chat seulement",
         "setBtSaveSys": "Enregistrer dans le système",
         "wsrvClose": "Fermer wsrv",
         "wsrvOpen": "Ouvrir wsrv",
@@ -184,7 +183,7 @@ export default {
         ,"tts_voice": "Personnage vocal TTS",
         "typing": "En train d'écrire"
 
-    },    
+    },
     "mjset": {
         "server": "Serveur",
         "about": "À Propos",
@@ -197,7 +196,7 @@ export default {
         "drawinfo": "Dessin AI avec le Moteur Midjourney",
         "gallery": "Galerie",
         "galleryInfo": "Ma Galerie"
-    },    
+    },
     "mjchat": {
         "loading": "Chargement de l'Image",
         "openurl": "Ouvrir le lien directement",
@@ -274,4 +273,3 @@ export default {
         "imgExt": "Les images ne supportent que les formats jpg, gif, png, jpeg"
     },
   }
-  

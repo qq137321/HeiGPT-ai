@@ -144,7 +144,7 @@ export default {
     "totalUsage": "총 구독 금액",
     "disableGpt4": "GPT4 비활성화됨",
     "setTextInfo": "OpenAI API 키 오류, 여기를 클릭하여 다시 시도",
-    
+
     "attr1": "첨부",
     "ulink": "원본 이미지 링크",
     "copyFail": "복사 실패",
@@ -164,13 +164,12 @@ export default {
     "mSent": "전송",
     "findVersion": "최신 버전 찾기",
     "yesLastVersion": "최신 버전입니다",
-    "infoStar": "이 프로젝트는 <a class=\"text-blue-600 dark:text-blue-500\" href=\"https://github.com/Dooy/chatgpt-web-midjourney-proxy\" target=\"_blank\">github</a>에서 오픈 소스로 제공되며 MIT 라이선스를 기반으로 하며 어떠한 유료 행위도 없습니다! </p><p>이 프로젝트가 도움이 되었다면 github에서 별을 주시기 바랍니다. 감사합니다!",
-    "setBtSaveChat": "대화만 저장",
+		"infoStar: '이 프로젝트는 <a class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank">HeiGPT</a>에서 기반으로 하여 MIT 라이선스에 따라 진행되었으며, 어떠한 형태의 결제도 포함되지 않았습니다!</p><p>만약 이 프로젝트가 도움이 되었다면, 적극적으로 확장과 사용을 지원해주시기 바랍니다. 감사합니다!'"    "setBtSaveChat": "대화만 저장",
     "setBtSaveSys": "시스템에 저장",
 
     "wsrvClose": "닫기 wsrv",
     "wsrvOpen": "열기 wsrv",
-    
+
     "temperature": "랜덤성",
     "temperatureInfo": "(temperature) 값이 증가함에 따라 응답이 더 랜덤해집니다",
     "top_p": "상위 확률 샘플링",
