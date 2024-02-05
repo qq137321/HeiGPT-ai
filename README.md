@@ -1,4 +1,4 @@
-# ChatGPT Web Midjourney Proxy
+# HeiGPT Next Web
 💡**声明**
 - 此项目只发布于 github，基于 MIT 协议，免费且作为开源学习使用。并且不会有任何形式的卖号、付费服务、讨论群、讨论组等行为。谨防受骗。
 - 本开源是在 [ChenZhaoYu](https://github.com/Chanzhaoyu/chatgpt-web) 基础上做二次开发 ；使用 [midjourney-proxy](https://github.com/novicezk/midjourney-proxy) 提供的midjourney api 作为后端而形成的。
@@ -9,7 +9,7 @@
 - ✅ 原chatgpt web 所有功能
 - ✅ chatgpt web 支持自定义api key、base_url
 - ✅ midjourney 文生图
-- ✅ midjourney 垫图+文生图  
+- ✅ midjourney 垫图+文生图
 - ✅ midjourney 图变 U1到U4 、 V1到V4、重绘等操作
 - ✅ midjourney 支持局部重绘
 - ✅ midjourney 支持1.5倍变焦 2倍变焦
@@ -63,7 +63,7 @@
 | GPT_URL | 自定 GPT_URL=/gpts.json  | 无 也可自己的外链 | ✅ |  ✅|
 | UPLOAD_IMG_SIZE | gpt4v 上传图片大小 |  1 | ✅ |  ✅|
 | SYS_THEME | 默认主题 `light`或者`dark`  | dark | ✅ |  ✅|
-  
+
 
 ## docker 部署
 **假设**:
@@ -76,9 +76,9 @@ docker run --name chatgpt-web-midjourney-proxy  -d -p 6015:3002 \
 -e MJ_SERVER=https://172.17.0.1:6013  \
 -e MJ_API_SECRET=abc123456  ydlhero/chatgpt-web-midjourney-proxy
 ```
-访问 http://ip:6015 
+访问 http://ip:6015
 
-**文件上传**: 
+**文件上传**:
 ```bash
 docker run --name chatgpt-web-midjourney-proxy  -d -p 6015:3002 \
 -e OPENAI_API_KEY=sk-xxxxx \
@@ -116,7 +116,7 @@ docker run -d --name mj6013  -p 6013:8080  \
 ### 自定义服务端api key、base_url：
 ![base_url](./docs/gptbase.jpg)
 
-### GPTS  GTP Store 
+### GPTS  GTP Store
 ![多模态](./docs/gpts.jpg)
 ![多模态](./docs/gpts1.jpg)
 
