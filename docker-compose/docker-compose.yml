@@ -36,9 +36,9 @@ services:
       #DISABLE_GPT4=1 前端限制GPT4调用，可选
       DISABLE_GPT4:
       # cloudflare r2 存储 10 GB/月 免费 https://www.cloudflare.com/zh-cn/developer-platform/r2/
-      R2_DOMAIN: goingpt.com
-      R2_BUCKET_NAME: alala-storage
-      R2_ACCOUNT_ID: d251e68af0e6683973004079b864074e
-      R2_KEY_ID: 090bd52ddbfa5387cb7334da8a13db2e
-      R2_KEY_SECRET: 98213452f0a3380857d1605c6b0a552c0b85c834fae39c2821214c93f3ce2363
+      R2_DOMAIN:
+      R2_BUCKET_NAME:
+      R2_ACCOUNT_ID:
+      R2_KEY_ID:
+      R2_KEY_SECRET:
 
