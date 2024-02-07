@@ -99,7 +99,7 @@ export default {
     server:'服务端'
     ,about:'关于'
     ,model:'模型'
-    ,sysname:'AI绘图'
+    ,sysname:'AI-GPT4'
   }
 
   ,mjtab:{
