@@ -8,9 +8,9 @@ services:
       - 6050:3002
     environment:
       # 必选
-      OPENAI_API_KEY:
+      OPENAI_API_KEY: sk-3StBZhQabbEEJmIrC206E5C8Cb294aB2B2C67e7a5c14F88d
       # API接口地址，可选，设置 OPENAI_API_KEY 时可用
-      OPENAI_API_BASE_URL:
+      OPENAI_API_BASE_URL: https://one-api.bltcy.top
       # API模型，可选，设置 OPENAI_API_KEY 时可用
       OPENAI_API_MODEL:
       # 访问权限密钥，可选
@@ -20,7 +20,7 @@ services:
       # midjourney API密钥，可选
       MJ_API_SECRET:
       #API_UPLOADER 是否可以上传 1 可以其他都不可以，可选
-      API_UPLOADER:
+      API_UPLOADER:1
       #HIDE_SERVER 隐藏服务端 1，可选
       HIDE_SERVER:1
       #自定义模型  CUSTOM_MODELS=-gpt-3.5-turbo-0301,gpt-4.5 不显示 gpt-3.5-turbo-0301 新增加 gpt-4.5，可选
@@ -32,13 +32,13 @@ services:
       #SYS_NOTIFY 系统通知 支持HTML ，可选
       SYS_NOTIFY:
       #FILE_SERVER 文件服务器，可选
-      FILE_SERVER:https://paigpt.com/uploads/
+      FILE_SERVER: https://paigpt.com/uploads/
       #DISABLE_GPT4=1 前端限制GPT4调用，可选
       DISABLE_GPT4:
       # cloudflare r2 存储 10 GB/月 免费 https://www.cloudflare.com/zh-cn/developer-platform/r2/
-      R2_DOMAIN:
-      R2_BUCKET_NAME:
-      R2_ACCOUNT_ID:
-      R2_KEY_ID:
-      R2_KEY_SECRET:
+      R2_DOMAIN: goingpt.com
+      R2_BUCKET_NAME: alala-storage
+      R2_ACCOUNT_ID: d251e68af0e6683973004079b864074e
+      R2_KEY_ID: 090bd52ddbfa5387cb7334da8a13db2e
+      R2_KEY_SECRET: 98213452f0a3380857d1605c6b0a552c0b85c834fae39c2821214c93f3ce2363
 
