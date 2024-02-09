@@ -31,7 +31,7 @@ async function fetchConfig() {
     loading.value = true
     // const { data } = await fetchChatConfig<ConfigState>()
     // config.value = data
-    
+
 
     const dd= await gptUsage();
     config.value= {usage:dd.usage?`${dd.usage}`:'-'
@@ -59,7 +59,7 @@ const getLastFrom= ()=>{
 }
 onMounted( () => {
   fetchConfig();
-  
+
   let t = getLastFrom();
   if(t){
      st.value.lastVersion = t ;
@@ -83,7 +83,6 @@ const  isShow = computed(()=>{
       <h2 class="text-xl font-bold">
         Version - {{ pkg.version }}
         <a class="text-red-500" href="https://github.com/Dooy/chatgpt-web-midjourney-proxy" target="_blank" v-if=" isShow  "> ({{ $t('mj.findVersion') }} {{ st.lastVersion }})</a>
-        <a class="text-gray-500" href="https://github.com/Dooy/chatgpt-web-midjourney-proxy" target="_blank" v-else-if="st.lastVersion"> ({{ $t('mj.yesLastVersion') }})</a>
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p v-html="$t('mj.infoStar')"></p>
@@ -103,7 +102,7 @@ const  isShow = computed(()=>{
       <p v-if="!isChatGPTAPI">
         {{ $t("setting.reverseProxy") }}：{{ config?.reverseProxy ?? '-' }}
       </p>
-       
+
       <!-- <p>{{ $t("setting.timeout") }}：{{ config?.timeoutMs ?? '-' }}</p>  -->
       <!-- <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
       <p>{{ $t("setting.httpsProxy") }}：{{ config?.httpsProxy ?? '-' }}</p> -->
