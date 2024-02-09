@@ -82,7 +82,6 @@ const  isShow = computed(()=>{
     <div class="p-4 space-y-4">
       <h2 class="text-xl font-bold">
         Version - {{ pkg.version }}
-        <a class="text-red-500" href="" target="_blank" v-if=" isShow  "> ({{ $t('mj.findVersion') }})</a>
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p v-html="$t('mj.infoStar')"></p>
