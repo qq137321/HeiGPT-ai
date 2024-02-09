@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: 'https://raw.githubusercontent.com/qq137321/heigpt-ai/main/src/assets/avatar.jpg',
       name:  t('mjset.sysname'),//'AI绘图',
-      description: 'CopyRight© <a href="https://HeiGPT.com/" class="text-blue-500" target="_blank" >HeiGPT</a>',
+      description: 'CopyRight© <a href="https://HeiGPT.com/" class="text-blue-500" target="_blank" >HeiGPT.Inc</a>',
     },
   }
 }
