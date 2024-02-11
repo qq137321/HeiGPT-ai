@@ -14,15 +14,14 @@ const chatSet = new chatSetting( uuid==null?1002:uuid);
 const nGptStore = ref(  chatSet.getGptConfig() );
 
 const config = ref({
-model:[ 'gpt-4-0125-preview','gpt-3.5-turbo',`gpt-4-1106-preview`,`gpt-3.5-turbo-16k`,'gpt-4','gpt-4-0613','gpt-4-32k-0613' ,'gpt-4-32k','gpt-4-32k-0314',`gpt-3.5-turbo-16k-0613`
-,`gpt-4-vision-preview`,`gpt-3.5-turbo-1106` ,'gpt-3.5-turbo-0125'
-,'gpt-3.5-turbo-0301','gpt-3.5-turbo-0613','gpt-4-all','gpt-3.5-net','gemini-pro']
+model:[ 'gpt-4-0125-preview','gpt-3.5-turbo',`gpt-3.5-turbo-16k`,'gpt-4','gpt-4-32k-0613'
+,`gpt-4-vision-preview`,'gpt-4-all','gpt-3.5-net','bing','gemini-pro','claude-2.1','Code Interpreter','glm-4','gpt-4-browsing','midjourney','midjourney-relax','midjourney-turbo']
 ,maxToken:2048
-}); 
+});
 const st= ref({openMore:false });
 const voiceList= computed(()=>{
     let rz=[];
-    for(let o of "alloy,echo,fable,onyx,nova,shimmer".split(/[ ,]+/ig))rz.push({label:o,value:o}) 
+    for(let o of "alloy,echo,fable,onyx,nova,shimmer".split(/[ ,]+/ig))rz.push({label:o,value:o})
     return rz;
 });
 const modellist = computed(() => { //
@@ -62,7 +61,7 @@ const modellist = computed(() => { //
     return uniqueArray ;
 });
 const ms= useMessage();
-const save = ()=>{ 
+const save = ()=>{
     gptConfigStore.setMyData( nGptStore.value );
     ms.success( t('common.saveSuccess')); //'保存成功'
     emit('close');
@@ -75,7 +74,7 @@ const saveChat=()=>{
      ms.success( t('common.saveSuccess'));
      emit('close');
 }
- 
+
 watch(()=>nGptStore.value.model,(n)=>{
     nGptStore.value.gpts=undefined;
     let max=4096;
@@ -124,7 +123,7 @@ onMounted(() => {
 <div class="mb-4 text-[12px] text-gray-300 dark:text-gray-300/20">{{ $t('mjchat.historyToken') }}</div>
 
  <section class=" flex justify-between items-center"  >
-     <div> {{ $t('mjchat.historyTCnt') }} 
+     <div> {{ $t('mjchat.historyTCnt') }}
      </div>
      <div class=" flex justify-end items-center w-[80%] max-w-[240px]">
         <div class=" w-[200px]"><n-slider v-model:value="nGptStore.max_tokens" :step="1" :max="config.maxToken" :min="1" /></div>
