@@ -15,7 +15,7 @@ const nGptStore = ref(  chatSet.getGptConfig() );
 
 const config = ref({
 model:[ 'gpt-4-0125-preview','gpt-3.5-turbo',`gpt-3.5-turbo-16k`,'gpt-4','gpt-4-32k-0613'
-,`gpt-4-vision-preview`,'gpt-4-all','gpt-3.5-net','bing','claude-2.1','gemini-pro','gemini-pro-vision','Code Interpreter','glm-4','gpt-4-browsing','midjourney','midjourney-relax','midjourney-turbo']
+,`gpt-4-vision-preview`,'gpt-4-all','bing','gemini-pro','gemini-pro-vision','claude-2.1','llama-2-70b','Code Interpreter','glm-4','gpt-4-browsing','midjourney','midjourney-relax','midjourney-turbo']
 ,maxToken:2048
 });
 const st= ref({openMore:false });
