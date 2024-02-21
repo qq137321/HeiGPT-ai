@@ -32,7 +32,7 @@ services:
       #SYS_NOTIFY 系统通知 支持HTML ，可选
       SYS_NOTIFY:
       #FILE_SERVER 文件服务器，可选
-      FILE_SERVER: https://uploads.helgpt.com
+      FILE_SERVER: 
       #DISABLE_GPT4=1 前端限制GPT4调用，可选
       DISABLE_GPT4:
       # cloudflare r2 存储 10 GB/月 免费 https://www.cloudflare.com/zh-cn/developer-platform/r2/
