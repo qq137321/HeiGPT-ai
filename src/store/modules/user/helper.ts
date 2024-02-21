@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://previewengine.zoho.com.cn/image/WD/vrz5kad364f4d4ef944df9d593b5e20bb96fb?version=1.0&width=2046&height=1536',
+      avatar: 'https://uploads.helgpt.com/avatar.jpg',
       name:  t('mjset.sysname'),//'AI绘图',
       description: 'CopyRight© <a href="https://HeiGPT.com/" class="text-blue-500" target="_blank" >HeiGPT.Inc</a>',
     },
