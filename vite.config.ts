@@ -62,6 +62,9 @@ export default defineConfig((env) => {
     build: {
       reportCompressedSize: false,
       sourcemap: false,
+      rollupOptions: {
+        external: ['dotenv']
+      }
       commonjsOptions: {
         ignoreTryCatch: false,
       },
