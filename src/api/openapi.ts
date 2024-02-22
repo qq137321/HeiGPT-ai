@@ -170,7 +170,7 @@ function getUploadFileHeaderAuthorization(){
         return {}
     }
     return {
-        'Authorization': 'Bearer ' +process.env.FILE_SERVER_API_KEY
+        'Authorization': 'Bearer sk-9RBUaBgg5QZxiQvCEcD80a887d1e4bFfBfA884603fC9B975'
     }
 }
 
