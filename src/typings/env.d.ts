@@ -9,10 +9,5 @@ interface ImportMetaEnv {
 	readonly API_UPLOADER: string;
 	readonly FILE_SERVER: string;
 	readonly FILE_SERVER_API_KEY: string;
-	readonly R2_DOMAIN: string;
-	readonly R2_BUCKET_NAME: string;
-	readonly R2_ACCOUNT_ID: string;
-	readonly R2_KEY_ID: string;
-	readonly R2_KEY_SECRET: string;
 
 }

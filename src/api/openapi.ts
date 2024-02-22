@@ -1,5 +1,4 @@
 
-import * as dotenv from 'dotenv'
 import { gptConfigStore, gptServerStore, homeStore } from "@/store";
 import { mlog,myTrim } from "./mjapi";
 import { fetchSSE } from "./sse/fetchsse";
@@ -13,7 +12,7 @@ import { chatSetting } from "./chat";
 //import {encode,  encodeChat} from "gpt-tokenizer/cjs/encoding/cl100k_base.js";
 //import { get_encoding } from '@dqbd/tiktoken'
 //import FormData from 'form-data';
-dotenv.config()
+
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
@@ -103,10 +102,10 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
         //headers={...headers,...getUploadFileHeaderAuthorization()}
     //
 
-    // 直接给它写死，不要其他上传了。
-    url= process.env.FILE_SERVER
+    // 直接给它写死，不要其他上传了。不会引入环境变量，所以直接设置死
+    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  'https://one-api.bltcy.top/v1/files'
     let headers=   {'Content-Type': 'multipart/form-data',
-    'Authorization': 'Bearer '+ process.env.FILE_SERVER_API_KEY
+    'Authorization': 'Bearer sk-9RBUaBgg5QZxiQvCEcD80a887d1e4bFfBfA884603fC9B975'
      }
 
 
