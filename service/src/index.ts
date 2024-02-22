@@ -181,6 +181,7 @@ if(isUpload){
           let responseBody = await axios.post( url , formData, {
                   headers: {
                   //Authorization: 'Bearer '+ process.env.OPENAI_API_KEY ,
+                  Authorization: 'Bearer '+ process.env.FILE_SERVER_API_KEY ,
                   'Content-Type': 'multipart/form-data'
                 }
             })   ;
