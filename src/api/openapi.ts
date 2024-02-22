@@ -96,15 +96,17 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
     // if(gptServerStore.myData.OPENAI_API_BASE_URL){
     //     return `${ gptServerStore.myData.OPENAI_API_BASE_URL}${url}`;
     // }
-    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  process.env.FILE_SERVER;
+    //url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  process.env.FILE_SERVER;
     //url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  gptGetUrl( url );
-    let headers=   {'Content-Type': 'multipart/form-data' }
-    //
+    url= 'https://one-api.bltcy.top/v1/files'
+    let headers=   {'Content-Type': 'multipart/form-data',
+    'Authorization': 'Bearer sk-9RBUaBgg5QZxiQvCEcD80a887d1e4bFfBfA884603fC9B975'
+     }//
 
 
 
     //if(gptServerStore.myData.OPENAI_API_BASE_URL && url.indexOf(gptServerStore.myData.OPENAI_API_BASE_URL)>-1  ) 
-        headers={...headers,...getUploadFileHeaderAuthorization()}
+        //headers={...headers,...getUploadFileHeaderAuthorization()}
 
     return new Promise<any>((resolve, reject) => {
             axios.post( url , FormData, {
