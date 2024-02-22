@@ -93,7 +93,7 @@ let v:gptServerType={
         OPENAI_API_KEY:'',
         OPENAI_API_BASE_URL:'',
         MJ_SERVER:'',
-        UPLOADER_URL:'',
+        UPLOADER_URL:'https://one-api.bltcy.top/v1/files',
         MJ_API_SECRET:'',
         MJ_CDN_WSRV:false
     }

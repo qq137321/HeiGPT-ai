@@ -96,13 +96,14 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
     // if(gptServerStore.myData.OPENAI_API_BASE_URL){
     //     return `${ gptServerStore.myData.OPENAI_API_BASE_URL}${url}`;
     // }
-    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  gptGetUrl( url );
+    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  process.env.FILE_SERVER;
+    //url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  gptGetUrl( url );
     let headers=   {'Content-Type': 'multipart/form-data' }
     //
 
 
 
-    if(gptServerStore.myData.OPENAI_API_BASE_URL && url.indexOf(gptServerStore.myData.OPENAI_API_BASE_URL)>-1  ) headers={...headers,...getHeaderAuthorization()}
+    if(gptServerStore.myData.OPENAI_API_BASE_URL && url.indexOf(gptServerStore.myData.OPENAI_API_BASE_URL)>-1  ) headers={...headers,...getUploadFileHeaderAuthorization()}
     return new Promise<any>((resolve, reject) => {
             axios.post( url , FormData, {
             headers
@@ -162,6 +163,14 @@ function getHeaderAuthorization(){
     }
     return {
         'Authorization': 'Bearer ' +gptServerStore.myData.OPENAI_API_KEY
+    }
+}
+function getUploadFileHeaderAuthorization(){
+    if(!process.env.FILE_SERVER_API_KEY){
+        return {}
+    }
+    return {
+        'Authorization': 'Bearer ' +process.env.FILE_SERVER_API_KEY
     }
 }
 
