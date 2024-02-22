@@ -102,7 +102,7 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
     //
 
     // 直接给它写死，不要其他上传了。
-    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  process.env.FILE_SERVER
+    url= process.env.FILE_SERVER
     let headers=   {'Content-Type': 'multipart/form-data',
     'Authorization': 'Bearer '+ process.env.FILE_SERVER_API_KEY
      }
