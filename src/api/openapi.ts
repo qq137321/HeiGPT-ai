@@ -108,7 +108,7 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
     'Authorization': 'Bearer sk-9RBUaBgg5QZxiQvCEcD80a887d1e4bFfBfA884603fC9B975'
      }
 
-
+    // one-api.bltcy.top返回数据中包括文件大小字样，可以用来扣费用
     return new Promise<any>((resolve, reject) => {
             axios.post( url , FormData, {
             headers
