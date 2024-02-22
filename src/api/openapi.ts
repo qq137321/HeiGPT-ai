@@ -91,22 +91,22 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
 	 if(homeStore.myData.session.isUploadR2){
 			const file = FormData.get('file') as File;
 			return uploadR2(file);
-	 }
+	 } //如果 R2 填写了，就用R2而不会用下面的上传了。
 
-    // if(gptServerStore.myData.OPENAI_API_BASE_URL){
-    //     return `${ gptServerStore.myData.OPENAI_API_BASE_URL}${url}`;
-    // }
+
     //url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  process.env.FILE_SERVER;
     //url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  gptGetUrl( url );
-    url= 'https://one-api.bltcy.top/v1/files'
-    let headers=   {'Content-Type': 'multipart/form-data',
-    'Authorization': 'Bearer sk-9RBUaBgg5QZxiQvCEcD80a887d1e4bFfBfA884603fC9B975'
-     }//
-
-
 
     //if(gptServerStore.myData.OPENAI_API_BASE_URL && url.indexOf(gptServerStore.myData.OPENAI_API_BASE_URL)>-1  ) 
         //headers={...headers,...getUploadFileHeaderAuthorization()}
+    //
+
+    // 直接给它写死，不要其他上传了。
+    url= process.env.FILE_SERVER
+    let headers=   {'Content-Type': 'multipart/form-data',
+    'Authorization': 'Bearer '+ process.env.FILE_SERVER_BASE_URL
+     }
+     
 
     return new Promise<any>((resolve, reject) => {
             axios.post( url , FormData, {
