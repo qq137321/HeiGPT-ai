@@ -102,11 +102,11 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
     //
 
     // 直接给它写死，不要其他上传了。
-    url= process.env.FILE_SERVER
+    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  process.env.FILE_SERVER
     let headers=   {'Content-Type': 'multipart/form-data',
-    'Authorization': 'Bearer '+ process.env.FILE_SERVER_BASE_URL
+    'Authorization': 'Bearer '+ process.env.FILE_SERVER_API_KEY
      }
-     
+
 
     return new Promise<any>((resolve, reject) => {
             axios.post( url , FormData, {
