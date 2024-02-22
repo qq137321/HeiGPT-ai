@@ -1,4 +1,5 @@
 
+import * as dotenv from 'dotenv'
 import { gptConfigStore, gptServerStore, homeStore } from "@/store";
 import { mlog,myTrim } from "./mjapi";
 import { fetchSSE } from "./sse/fetchsse";
@@ -12,6 +13,7 @@ import { chatSetting } from "./chat";
 //import {encode,  encodeChat} from "gpt-tokenizer/cjs/encoding/cl100k_base.js";
 //import { get_encoding } from '@dqbd/tiktoken'
 //import FormData from 'form-data';
+dotenv.config()
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
