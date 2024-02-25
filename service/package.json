@@ -2,7 +2,7 @@
   "name": "chatgpt-web-service",
   "version": "1.0.0",
   "private": false,
-  "description": "HeiGPT Next Web",
+  "description": "HeiGPT Web",
   "author": "ChenZhaoYu <ydlhero@gmail.com>",
   "keywords": [
     "chatgpt-web",
