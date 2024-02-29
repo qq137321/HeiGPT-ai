@@ -8,17 +8,17 @@ services:
       - 6050:3002
     environment:
       # 必选
-      OPENAI_API_KEY: sk-H5q7P9ae9fI79Bj6214751E64e6546239d6cA3F345E2C24f
+      OPENAI_API_KEY: 
       # API接口地址，可选，设置 OPENAI_API_KEY 时可用
-      OPENAI_API_BASE_URL: https://gpts.onechat.fun
+      OPENAI_API_BASE_URL: 
       # API模型，可选，设置 OPENAI_API_KEY 时可用
       OPENAI_API_MODEL:
       # 访问权限密钥，可选
       AUTH_SECRET_KEY:
       # midjourney 服务器地址，可选
-      MJ_SERVER: https://gpts.onechat.fun
+      MJ_SERVER: 
       # midjourney API密钥，可选
-      MJ_API_SECRET: sk-H5q7P9ae9fI79Bj6214751E64e6546239d6cA3F345E2C24f
+      MJ_API_SECRET: 
       #API_UPLOADER 是否可以上传 1 可以其他都不可以，可选
       API_UPLOADER: 1
       #HIDE_SERVER 隐藏服务端 1，可选
