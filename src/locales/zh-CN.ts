@@ -260,7 +260,7 @@ export default {
 
     ,findVersion:'发现更新版本'
     ,yesLastVersion:'已是最新版本'
-    ,infoStar:'此项目源于 <a  class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank"> HeiGPT </a>，基于 MIT 协议，没有任何形式的付费行为！ </p><p>如果你觉得此项目对你有帮助，请积极支持扩展使用，谢谢！'
+    ,infoStar:'此项目源于 <a  class="text-blue-600 dark:text-blue-500" href="https://HeiGPT.com" target="_blank"> HeiGPT </a>，基于 MIT 协议！ </p><p>如果你觉得此项目对你有帮助，请积极支持扩展使用，谢谢！'
     ,setBtSaveChat:'仅保存会话'
     ,setBtSaveSys: '保存至系统'
 
