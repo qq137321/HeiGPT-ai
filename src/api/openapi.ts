@@ -104,7 +104,7 @@ export const GptUploader =   ( url:string, FormData:FormData )=>{
 
     // 直接给它写死，不要其他上传了。不会引入环境变量，所以直接设置死
     // url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  'https://one-api.bltcy.top/v1/files'
-    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  'http://api.gptgod.online/v1/file'
+    url= gptServerStore.myData.UPLOADER_URL? gptServerStore.myData.UPLOADER_URL :  'https://api.gptgod.online/v1/file'
     let headers=   {'Content-Type': 'multipart/form-data',
     // 'Authorization': 'Bearer sk-9RBUaBgg5QZxiQvCEcD80a887d1e4bFfBfA884603fC9B975'
     'Authorization': 'Bearer sk-EUqEDfom7OQmW01vPnCZseO2920iWs5XzTBYVytjAkRGev43'
