@@ -47,6 +47,13 @@ const handleSubmit = ( ) => {
         prompt: mvalue.value,
         fileBase64:st.value.fileBase64
     }
+    
+    // 如果以http开头，就将这个链接附加到prompt的前面/这个修改有可能会造成两次访问
+    if (obj.fileBase64.length > 0 && obj.fileBase64[0].indexOf('http') === 0) {
+        obj.prompt = obj.fileBase64[0] + ' ' + obj.prompt;
+    }
+    // 如果以http开头，就将这个链接附加到prompt的前面/这个修改有可能会造成两次访问
+
     homeStore.setMyData({act:'gpt.submit', actData:obj });
     mvalue.value='';
     st.value.fileBase64=[];
