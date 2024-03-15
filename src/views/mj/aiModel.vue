@@ -16,9 +16,11 @@ const nGptStore = ref(  chatSet.getGptConfig() );
 const config = ref({
 model:[ 'gpt-3.5-turbo',`gpt-3.5-turbo-16k`,'gpt-4','gpt-4-32k-0613','gpt-4-0125-preview'
 ,`gpt-4-vision-preview`,'gpt-4-all','Precise','Balanced','Creative','gemini-pro'
-,'gemini-pro-vision','claude-1.3','claude-2.1','llama-2-13b','llama-2-70b','Code Interpreter'
+,'gemini-pro-vision','claude-1.3','claude-2.1','claude-3-haiku-20240307'
+,'claude-3-opus-20240229','claude-3-sonnet-20240229'
+,'llama-2-13b','llama-2-70b','Code Interpreter'
 ,'dall-e-2','dall-e-3','stable-diffusion','midjourney','midjourney-relax','midjourney-turbo'
-,'claude-3-haiku-20240307','claude-3-opus-20240229','claude-3-sonnet-20240229']
+]
 ,maxToken:2048
 });
 const st= ref({openMore:false });
