@@ -250,7 +250,7 @@ watch(()=>homeStore.myData.act, async (n)=>{
 // 隐藏上游type=暴露
 let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
 if(jsonEmgs.error && jsonEmgs.error.type) {
-    delete jsonEmgs.error.type; // 删除type属性
+    jsonEmgs.error.type = "模型高并发阻塞，请重试"; // 修改 "type" 的值
 }
 let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
@@ -308,7 +308,7 @@ const submit= (model:string, message:any[] ,  opt?:any )=>{
 // 隐藏上游type=暴露
 let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
 if(jsonEmgs.error && jsonEmgs.error.type) {
-    delete jsonEmgs.error.type; // 删除type属性
+    jsonEmgs.error.type = "模型高并发阻塞，请重试"; // 修改 "type" 的值
 }
 let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
@@ -332,7 +332,7 @@ let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
 let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
 if(jsonEmgs.error && jsonEmgs.error.type) {
-    delete jsonEmgs.error.type; // 删除type属性
+    jsonEmgs.error.type = "模型高并发阻塞，请重试"; // 修改 "type" 的值
 }
 let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
