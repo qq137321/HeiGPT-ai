@@ -250,7 +250,7 @@ watch(()=>homeStore.myData.act, async (n)=>{
 // 隐藏上游type=暴露
 let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
 if(jsonEmgs.error && jsonEmgs.error.type) {
-    jsonEmgs.error.type = "用户模型高并发错配阻塞，请重试。或者向管理员寻求解决"; // 修改 "type" 的值
+    jsonEmgs.error.type = "模型高并发错配阻塞，请重试。或者向管理员寻求解决"; // 修改 "type" 的值
 }
 let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
@@ -308,7 +308,7 @@ const submit= (model:string, message:any[] ,  opt?:any )=>{
 // 隐藏上游type=暴露
 let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
 if(jsonEmgs.error && jsonEmgs.error.type) {
-    jsonEmgs.error.type = "用户模型高并发错配阻塞，请重试。或者向管理员寻求解决"; // 修改 "type" 的值
+    jsonEmgs.error.type = "模型高并发错配阻塞，请重试。或者向管理员寻求解决"; // 修改 "type" 的值
 }
 let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
@@ -332,7 +332,7 @@ let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
 let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
 if(jsonEmgs.error && jsonEmgs.error.type) {
-    jsonEmgs.error.type = "用户模型高并发错配阻塞，请重试。或者向管理员寻求解决"; // 修改 "type" 的值
+    jsonEmgs.error.type = "模型高并发错配阻塞，请重试。或者向管理员寻求解决"; // 修改 "type" 的值
 }
 let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露
