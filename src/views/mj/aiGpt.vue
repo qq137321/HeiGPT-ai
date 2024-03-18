@@ -338,11 +338,11 @@ if(jsonEmgs.error && jsonEmgs.error.type) {
 }
 let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
 // 隐藏上游type=暴露 ------- 错误的时候进行尝试再发？
-                        if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+"\n```\n"+emsgnotype +"\n```\n");
                         retryCount++;
                         if (retryCount < MAX_RETRY){
                             initSubModel(); // 重新调用subModel方法
                         } else {
+                            if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+"\n```\n"+emsgnotype +"\n```\n");
                             goFinish(); //若超过最大重试次数则结束
                         }
                     }
