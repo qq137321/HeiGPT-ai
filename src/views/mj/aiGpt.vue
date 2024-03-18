@@ -247,7 +247,7 @@ watch(()=>homeStore.myData.act, async (n)=>{
                 }, 100);
             }).catch(e=>{
                 let  emsg =   (JSON.stringify(  e.reason? JSON.parse( e.reason ):e,null,2)); 
-                if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+" \n```\n"+emsg+"\n```\n");
+                if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+" \n```\n"+"emsg"+"\n```\n");
                 //goFinish();
             });
 
@@ -298,7 +298,7 @@ const submit= (model:string, message:any[] ,  opt?:any )=>{
                 }, 100);
             }).catch(e=>{
                 let  emsg =   (JSON.stringify(  e.reason? JSON.parse( e.reason ):e,null,2)); 
-                if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+" \n```\n"+emsg+"\n```\n");
+                if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+" \n```\n"+"emsg"+"\n```\n");
                 goFinish();
             });
 
@@ -315,7 +315,7 @@ const submit= (model:string, message:any[] ,  opt?:any )=>{
                 let  emsg =   (JSON.stringify(  e.reason? JSON.parse( e.reason ):e,null,2));
                 //if(emsg=='{}' ) emsg= JSON.stringify(e );
 
-                if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+"\n```\n"+emsg+"\n```\n");
+                if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+"\n```\n"+"emsg"+"\n```\n");
                 goFinish();
             }
             ,signal:controller.value.signal,
