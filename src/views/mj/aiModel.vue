@@ -14,7 +14,7 @@ const chatSet = new chatSetting( uuid==null?1002:uuid);
 const nGptStore = ref(  chatSet.getGptConfig() );
 
 const config = ref({
-model:[ 'gpt-3.5-turbo',`gpt-3.5-turbo-16k`,'gpt-4','gpt-4-32k-0613','gpt-4-0125-preview'
+model:[ 'gpt-3.5-turbo',`gpt-3.5-turbo-16k`,'gpt-4','gpt-4-32k','gpt-4-0125-preview'
 ,`gpt-4-vision-preview`,'gpt-4-all','bing','gemini-pro'
 ,'gemini-pro-vision','claude-1.3','claude-2.1','claude-3-haiku-20240307'
 ,'claude-3-opus-20240229','claude-3-sonnet-20240229'
