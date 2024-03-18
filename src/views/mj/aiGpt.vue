@@ -332,11 +332,7 @@ let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
                         mlog('onError',e)
                         let  emsg =   (JSON.stringify(  e.reason? JSON.parse( e.reason ):e,null,2));
 // 隐藏上游type=暴露 ------- 错误的时候进行尝试再发？
-let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
-if(jsonEmgs.error && jsonEmgs.error.type) {
-    jsonEmgs.error.type = "模型高并发错配阻塞，请进行重试。如果持续错误，请向管理员寻求解决"; // 修改 "type" 的值
-}
-let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
+let emsgnotype = "模型高并发错配阻塞，请进行重试。如果持续错误，请向管理员寻求解决";
 // 隐藏上游type=暴露 ------- 错误的时候进行尝试再发？
                         retryCount++;
                         if (retryCount < MAX_RETRY){
