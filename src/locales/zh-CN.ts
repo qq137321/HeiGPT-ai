@@ -112,7 +112,7 @@ export default {
   ,mjchat:{
     loading:'正在载入图片'
     ,openurl:'直接打开链接'
-    ,failReason:'失败原因：'
+    ,failReason:'error：'
     ,reload:'重新获取'
     ,progress:'进度：'
     ,wait:'任务已经提交请等待...'

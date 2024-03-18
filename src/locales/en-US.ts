@@ -202,7 +202,7 @@ export default {
   "mjchat": {
     "loading": "Loading Image",
     "openurl": "Open Link Directly",
-    "failReason": "Failure Reason:",
+    "failReason": "error:",
     "reload": "Reload",
     "progress": "Progress:",
     "wait": "Task has been submitted, please wait...",

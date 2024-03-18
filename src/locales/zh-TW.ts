@@ -198,7 +198,7 @@ export default {
   "mjchat": {
     "loading": "正在載入圖片",
     "openurl": "直接打開鏈接",
-    "failReason": "失敗原因：",
+    "failReason": "error：",
     "reload": "重新獲取",
     "progress": "進度：",
     "wait": "任務已經提交請等待...",
