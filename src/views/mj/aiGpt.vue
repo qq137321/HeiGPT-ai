@@ -317,33 +317,36 @@ let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
             });
 
         }else{
-        //controller.signal
-            subModel( {message,model
-            ,uuid:st.value.uuid //当前会话
-            ,onMessage:(d)=>{
-                mlog('🐞消息',d);
-                textRz.value.push(d.text);
-            }
-            ,onError:(e:any)=>{
-                mlog('onError',e)
-                let  emsg =   (JSON.stringify(  e.reason? JSON.parse( e.reason ):e,null,2));
-                //if(emsg=='{}' ) emsg= JSON.stringify(e );
 
-// 隐藏上游type=暴露 ------- 错误的时候进行尝试再发？
-let jsonEmgs = JSON.parse(emsg); // 解析为JSON对象
-if(jsonEmgs.error && jsonEmgs.error.type) {
-    jsonEmgs.error.type = "模型高并发错配阻塞，请进行重试。如果持续错误，请向管理员寻求解决"; // 修改 "type" 的值
-}
-let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
-// 隐藏上游type=暴露 ------- 错误的时候进行尝试再发？
-                if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+"\n```\n"+emsgnotype+"\n```\n");
-                goFinish();
+            // 定义一个重试次数
+            let retryCount = 0;
+            const MAX_RETRY = 3;
+            const initSubModel = ()=>{
+                subModel( {message,model
+                    ,uuid:st.value.uuid //当前会话
+                    ,onMessage:(d)=>{
+                        mlog('🐞消息',d);
+                        textRz.value.push(d.text);
+                    }
+                    ,onError:(e:any)=>{
+                        mlog('onError',e)
+                        let  emsg =   (JSON.stringify(  e.reason? JSON.parse( e.reason ):e,null,2));
+                        if(e.message!='canceled' && emsg.indexOf('aborted')==-1 ) textRz.value.push("\n"+t('mjchat.failReason')+"\n```\n"+emsg +"\n```\n");
+                        retryCount++;
+                        if (retryCount < MAX_RETRY){
+                            initSubModel(); // 重新调用subModel方法
+                        } else {
+                            goFinish(); //若超过最大重试次数则结束
+                        }
+                    }
+                    ,signal:controller.value.signal,
+                    }).then(()=>goFinish() ).catch(e=>{
+                        if(e.message!='canceled')  textRz.value.push("\n"+t('mj.fail')+":\n```\n"+(e.reason??JSON.stringify(e,null,2)) +"\n```\n")
+                        goFinish();
+                    });
             }
-            ,signal:controller.value.signal,
-            }).then(()=>goFinish() ).catch(e=>{
-                if(e.message!='canceled')  textRz.value.push("\n"+t('mj.fail')+":\n```\n"+(e.reason??JSON.stringify(e,null,2)) +"\n```\n")
-                goFinish();
-            });
+
+            initSubModel(); // 初始化时调用方法
         }
 }
 
