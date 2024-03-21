@@ -326,7 +326,7 @@ let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
                     ,uuid:st.value.uuid //当前会话
                     ,onMessage:(d)=>{
                         mlog('🐞消息',d);
-                        if(model=='dall-e-3')
+                        if(model=='dall-e-3') // 将链接修改为markdown输出格式图片
                             textRz.value.push("![](" + d.text + ")");
                         else
                             textRz.value.push(d.text);
