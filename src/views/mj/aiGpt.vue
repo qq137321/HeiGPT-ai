@@ -326,7 +326,8 @@ let emsgnotype = JSON.stringify(jsonEmgs, null, 2);
                     ,uuid:st.value.uuid //当前会话
                     ,onMessage:(d)=>{
                         mlog('🐞消息',d);
-                        textRz.value.push(d.text + "1up1");
+                        textRz.value.push(d.text);
+                        // textRz.value.push(d.text + "1up1");
                     }
                     ,onError:(e:any)=>{
                         mlog('onError',e)
