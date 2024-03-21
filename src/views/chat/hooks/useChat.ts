@@ -17,7 +17,7 @@ export function useChat() {
 
   const updateChatSome = (uuid: number, index: number, chat: Partial<Chat.Chat>) => {
     chatStore.updateChatSomeByUuid(uuid, index, chat)
-  }
+  } 
 
   return {
     addChat,
