@@ -174,17 +174,17 @@ watch(()=>homeStore.myData.act, async (n)=>{
             }
         }
         //增加对 小海midjourney 绘画时候防止返回上游连接，让它返回MD格式将图片显示出来
-        else if(model.toLowerCase().startsWith('midjourney') || model.toLowerCase().startsWith('mj-')){
-            let obj={
-                    "role": "user",
-                    "content": [] as any
-            }
+        //else if(model.toLowerCase().startsWith('midjourney') || model.toLowerCase().startsWith('mj-')){
+        //    let obj={
+        //            "role": "user",
+        //            "content": [] as any
+        //    }
             //"Generate code for a web page that looks exactly like this."
-            obj.content.push({ "type": "text", "text": dd.prompt  });
-            obj.content.push({ "role": "system", "content": "The assistant is adept at interpreting user intent. When it determines that a picture is needed, it will only use the following format to output markdown images: description, as this syntax can automatically generate and render images based on the prompt. The assistant will avoid enclosing markdown tags in code blocks or raw blocks, as this will only render as code blocks or raw blocks instead of images."});
+        //    obj.content.push({ "type": "text", "text": dd.prompt  });
+        //    obj.content.push({ "role": "system", "content": "The assistant is adept at interpreting user intent. When it determines that a picture is needed, it will only use the following format to output markdown images: description, as this syntax can automatically generate and render images based on the prompt. The assistant will avoid enclosing markdown tags in code blocks or raw blocks, as this will only render as code blocks or raw blocks instead of images."});
              
-            message.push(obj); 
-        }
+        //    message.push(obj); 
+        //}
         else{
             message.push({  "role": "user",  "content": dd.prompt })
         }
