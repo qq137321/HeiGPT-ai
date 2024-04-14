@@ -17,8 +17,7 @@ const config = ref({
 model:[ 'gpt-3.5-turbo',`gpt-3.5-turbo-16k`,'gpt-4','gpt-4-32k','gpt-4-turbo-preview','gpt-4-turbo-2024-04-09','gpt-4-1106-preview','gpt-4-0125-preview'
 ,`gpt-4-vision-preview`,'gpt-4-all','bing','suno-v2','suno-v3','gemini-pro-1.5'
 ,'claude-3-haiku-20240307','claude-3-opus-20240229','claude-3-sonnet-20240229'
-,'llama-2-13b','llama-2-70b','Code Interpreter'
-,'dall-e-3','stable-diffusion','midjourney','midjourney-fast','midjourney-relax'
+,'dall-e-3','stable-diffusion','llama-2-13b','llama-2-70b','Code Interpreter'
 ]
 ,maxToken:2048
 });
