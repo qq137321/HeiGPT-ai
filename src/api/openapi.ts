@@ -185,8 +185,7 @@ export const getSystemMessage = (uuid?: number) => {
 
     // 检查模型是否符合条件
     if (['Llama3-8b', 'Llama3-70b', 'mixtral-8x7b', 'gemma-7b'].includes(model)) {
-        const DEFAULT_SYSTEM_TEMPLATE = `I'm chinese, please always response in Chinese, not in English.
-You are ChatGPT, a large language model trained by OpenAI.
+        const DEFAULT_SYSTEM_TEMPLATE = `除非专用词语，其他请保证一直用中文汉字回答，不要用拼音不要用英文，谢谢。
 Knowledge cutoff: ${KnowledgeCutOffDate[model]}
 Current model: ${model}
 Current time: ${new Date().toLocaleString()}
