@@ -179,24 +179,55 @@ function getUploadFileHeaderAuthorization(){
     }
 }
 
-export const getSystemMessage = (uuid?:number )=>{
-    //KnowledgeCutOffDate
-    let sysTem= gptConfigStore.myData.systemMessage;
-    if( uuid ){
-        const chatS= new chatSetting(uuid);
-        sysTem= chatS.getGptConfig().systemMessage ;
-    }
-    if(  sysTem ) return sysTem;
-    let model= gptConfigStore.myData.model?gptConfigStore.myData.model: "gpt-3.5-turbo";
-      const DEFAULT_SYSTEM_TEMPLATE = `You are ChatGPT, a large language model trained by OpenAI.
+export const getSystemMessage = (uuid?: number) => {
+    let sysTem = gptConfigStore.myData.systemMessage;
+    let model = gptConfigStore.myData.model ? gptConfigStore.myData.model : "gpt-3.5-turbo";
+
+    // 检查模型是否符合条件
+    if (['Llama3-8b', 'Llama3-70b', 'mixtral-8x7b', 'gemma-7b'].includes(model)) {
+        const DEFAULT_SYSTEM_TEMPLATE = `I'm chinese, please always response in Chinese, not in English.
+You are ChatGPT, a large language model trained by OpenAI.
 Knowledge cutoff: ${KnowledgeCutOffDate[model]}
 Current model: ${model}
-Current time: ${ new Date().toLocaleString()}
+Current time: ${new Date().toLocaleString()}
 Latex inline: $x^2$
 Latex block: $$e=mc^2$$`;
-return DEFAULT_SYSTEM_TEMPLATE;
+        return DEFAULT_SYSTEM_TEMPLATE;
+    }
 
+    if (uuid) {
+        const chatS = new chatSetting(uuid);
+        sysTem = chatS.getGptConfig().systemMessage;
+    }
+    if (sysTem) return sysTem;
+
+    const DEFAULT_SYSTEM_TEMPLATE = `You are ChatGPT, a large language model trained by OpenAI.
+Knowledge cutoff: ${KnowledgeCutOffDate[model]}
+Current model: ${model}
+Current time: ${new Date().toLocaleString()}
+Latex inline: $x^2$
+Latex block: $$e=mc^2$$`;
+    return DEFAULT_SYSTEM_TEMPLATE;
 }
+
+// export const getSystemMessage = (uuid?:number )=>{
+//     //KnowledgeCutOffDate
+//     let sysTem= gptConfigStore.myData.systemMessage;
+//     if( uuid ){
+//         const chatS= new chatSetting(uuid);
+//         sysTem= chatS.getGptConfig().systemMessage ;
+//     }
+//     if(  sysTem ) return sysTem;
+//     let model= gptConfigStore.myData.model?gptConfigStore.myData.model: "gpt-3.5-turbo";
+//       const DEFAULT_SYSTEM_TEMPLATE = `You are ChatGPT, a large language model trained by OpenAI.
+// Knowledge cutoff: ${KnowledgeCutOffDate[model]}
+// Current model: ${model}
+// Current time: ${ new Date().toLocaleString()}
+// Latex inline: $x^2$
+// Latex block: $$e=mc^2$$`;
+// return DEFAULT_SYSTEM_TEMPLATE;
+
+// }
 export const subModel= async (opt: subModelType)=>{
     //
     const model= opt.model?? ( gptConfigStore.myData.model?gptConfigStore.myData.model: "gpt-3.5-turbo");
