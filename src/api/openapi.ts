@@ -178,7 +178,7 @@ function getUploadFileHeaderAuthorization(){
         'Authorization': 'Bearer sk-9RBUaBgg5QZxiQvCEcD80a887d1e4bFfBfA884603fC9B975'
     }
 }
-
+//修改过后的getSystemMessage函数，对Groq的四个模型添加中文回复的系统强制提示。
 export const getSystemMessage = (uuid?: number) => {
     let sysTem = gptConfigStore.myData.systemMessage;
     let model = gptConfigStore.myData.model ? gptConfigStore.myData.model : "gpt-3.5-turbo";
