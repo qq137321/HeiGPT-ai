@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://uploads.helgpt.com/HeiLOGO.png',
+      avatar: 'https://paigpt.com/uploads/newapi/HeiLOGO.png',
       name:  t('mjset.sysname'),//'AI绘图',
       description: 'CopyRight© <a href="https://HeiGPT.com/" class="text-blue-500" target="_blank" >HeiGPT.Inc</a>',
     },
